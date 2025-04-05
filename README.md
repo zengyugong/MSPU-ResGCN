@@ -100,6 +100,6 @@ To train on other dataset, simply change the `--data_dir` to locate to your data
 
 ​    
 ### Acknowledgement
-This repo is heavily built on [PU-GAN code](https://github.com/liruihui/PU-GAN). We also borrow the architecture and evaluation codes from MPU and PU-Net. 
+This repo is heavily built on [PU-GAN code](https://github.com/liruihui/PU-GAN). We also borrow the architecture and evaluation codes from PUGCN, MPU and PU-Net. 
 
 
