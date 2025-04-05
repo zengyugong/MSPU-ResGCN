@@ -10,7 +10,7 @@
 1. Clone the repository:
 
    ```shell
-   https://github.com/zengyugong/MSPU-ResGCN.git
+   git clone https://github.com/zengyugong/MSPU-ResGCN.git
    cd PU-GCN
    ```
    
