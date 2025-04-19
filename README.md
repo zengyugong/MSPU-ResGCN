@@ -46,12 +46,14 @@ To train on other dataset, simply change the `--data_dir` to locate to your data
 
 -  MSPU-ResGCN
     ```shell
-    python main.py --phase train --model pugcn_residual --upsampler nodeshuffle --k 20 --data_dir data/train/poisson_256_data_part_1.h5
+    python main.py --phase train --model pugcn_residual --upsampler nodeshuffle --k 20 --data_dir data/train/poisson_1024_data_part_1.h5 --block inception_ms
     ```
+    if use 256 point cloud data
+   python main.py --phase train --model pugcn_residual --upsampler nodeshuffle --k 20 --data_dir data/train/poisson_256_data_part_1.h5 --up_ratio 1 --block inception_ms
 
 -  PU-GCN
     ```shell
-    python main.py --phase train --model pugcn --upsampler nodeshuffle --k 20 
+    python main.py --phase train --model pugcn --upsampler nodeshuffle --k 20 --k 20 --data_dir data/train/poisson_1024_data_part_1.h5 --block inception
     ```
 
 -  PU-Net
